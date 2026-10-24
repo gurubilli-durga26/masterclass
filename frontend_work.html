@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--<link rel="stylesheet" href="demo.css">
+    -->
+    <style>
+    /*h2{
+        background:green;
+    }
+    .frontend{
+        background:lightseagreen;
+        color:white;
+    }
+    .backend{
+        background:lightsalmon;
+    }
+    .title{
+        color:red;
+    }
+    #el{
+        color:rgb(7,26,229);
+        
+    }*/
+    div{
+        background:lightseagreen;
+        width:300px;
+        height:300px;
+        padding:20px;
+        padding:10px 20px 30px 40px;
+        padding:10px 20px 30px;
+        padding:10px 20px;
+border:6px solid red;
+border:6px double red;
+border:6px dashed red;
+border:6px dotted red;
+border:6px ridge red;
+/*
+border:6px groove red;*/
+border-radius:50%;
+border-radius:20px;
+
+margin:20px;
+margin:10px 20px 30px 40px;
+margin:10px 20px 40px;
+margin:10px 40px;
+}
+span{
+    background:darkblue;
+    color:white;
+    padding:20px;
+    
+    /*we cant apply width height ,margin top and bottom* /
+    width:80px;
+    height:80px;
+    margin:50px;
+    /*it acts as a inline but takes propertites like block level*/
+    display:inline-block;
+}
+
+    
+    </style>
+</head>
+<body>
+    <!--
+    css-cascading stylesheet
+    
+    cascading -flow
+    stylesheet-document contains stylings.
+    
+    
+    how to insert css
+    1)inline css
+    stylings are added to the element using style attribute
+    <h1 style="color:red">content</h1>
+    2)internal css
+    styles are added to the document using style tag in head section
+    <style>
+    h2{
+        background:green;
+    }
+
+    </style>
+
+    selectors
+    it is used to target the html elements for applying styles
+    selector{
+    property:value;
+    property:value;
+    }
+    high priority
+    inline
+    internal and external
+
+    types of selectors
+    1)simple selectors
+      1)element or tagname selector
+      h1{
+      color:red;
+      }
+
+      2)class selector
+      it is used to apply styles to the multipe elements
+      it is denoted by .demo
+      .demo{
+      color:green;
+      background:red;
+      }
+      .demo2{
+      background:yellow;
+      }
+      <div class='demo'>content1</div>
+      <div class='demo demo2'>content2</div>
+
+      3)id selector
+      it is used to apply styles uniquly for single element
+      it is denoted by #
+      #el{
+      color:orange;
+      }
+      <div id='el'>content
+
+
+      id is having high specificity
+      class 
+      div
+
+      box model
+      it describes the presentation of a element
+      it contains 4components
+      1)content
+      2)padding
+      div{
+        background:lightseagreen;
+        width:300px;
+        height:300px;
+        padding:20px;
+        padding:10px 20px 30px 40px;
+        padding:10px 20px 30px;
+        padding:10px 20px;
+
+    }
+
+      3)border
+      border :2px solid red;
+      width style color;
+      styles
+      solid
+      double
+      dotted
+      dashed
+      dotted
+      ridge
+      groove
+      border-radius:50%
+      border-radius:20px;
+
+      4)margin
+      it is the space around the 
+    2)combinators
+    3)pseduo class selectors
+    4)pseudo element
+    5)attribute selectors
+    3)external css
+    styles are defined in seperate file which have extension of.css file can be linked
+    using link tag in head section
+    demo.css
+    h3{color:orange;
+    }
+    <link rel=""stylesheet"href="demo.css"
+
+    <h1 style="color:red">content</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+-->
+    <p> we cant <span>apply</span>apply width height ,margin top and bottom3</p>
+    <div>css day</div>
+    <h1 class="frontend title">Frontend</h1>
+    <h2 class="frontend">HTML</h2>
+    <p class="frontend">it is used to create structure</p>
+
+    <h1 class="backend title">Backend</h1>
+    <h2 class="backend">python</h2>
+    <p class="backend">used to apply logics</p>
+
+    <h1 class="backend title">Backend</h1>
+    <h2 class="backend">fastapi</h2>
+    <p class="backend">used to create apis</p>
+
+</body>
+</html>
